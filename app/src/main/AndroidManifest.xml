@@ -1,0 +1,41 @@
+<?xml version="1.1" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.as.regrocery">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_CALENDAR"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Add_flour" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Add_spice" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Addgroc" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Home" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Add_grain" android:screenOrientation="portrait"/>
+
+        <activity android:name=".View" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Add_pulse" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Wishlist" android:screenOrientation="portrait"/>
+
+        <activity android:name=".Clearlist" android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

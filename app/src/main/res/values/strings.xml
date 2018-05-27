@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">RE Grocery</string>
+    <string-array name="Pulses">
+        <item>Masoor</item>
+        <item>Moong</item>
+        <item>Matki</item>
+        <item>Rajma</item>
+        <item>Urad</item>
+        <item>Vaal</item>
+        <item>Poha</item>
+        <item>Chana</item>
+        <item>Arhar</item>
+        <item>Daalia</item>
+        <item>Kabuli Chana</item>
+        <item>Chole</item>
+    </string-array>
+    <string-array name="Grains">
+        <item>Rice</item>
+        <item>Wheat</item>
+        <item>Jow</item>
+        <item>Jowar</item>
+        <item>Corn</item>
+        <item>Raagi</item>
+        <item>Kurmura</item>
+        <item>Matar</item>
+        <item>Bajra</item>
+        <item>Sabudana</item>
+        <item>Sama ke chawal</item>
+        <item>Rava</item>
+    </string-array>
+    <string-array name="Spices">
+        <item>Salt</item>
+        <item>Red Chilli</item>
+        <item>Black Pepper</item>
+        <item>Turmeric Powder</item>
+        <item>Dhanaia Powder</item>
+        <item>Black Salt</item>
+        <item>Ajwain</item>
+        <item>Chakra Phool</item>
+        <item>Daalchini</item>
+        <item>Elaichi</item>
+        <item>Hing</item>
+        <item>Jaipal</item>
+        <item>Javitri</item>
+        <item>Jeera</item>
+        <item>Kaali Mirch</item>
+        <item>Laung</item>
+        <item>Raai</item>
+        <item>Sarson</item>
+        <item>Tej patta</item>
+        <item>Saunf</item>
+    </string-array>
+    <string-array name="Others">
+        <item>Atta</item>
+        <item>Maida</item>
+        <item>Sooji</item>
+        <item>Kuttu ka Atta</item>
+        <item>Singhare ka Atta</item>
+
+    </string-array>
+    <string-array name="Quantity">
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="Category">
+        <item>Pulses</item>
+        <item>Grains</item>
+        <item>Flour</item>
+        <item>Spices</item>
+    </string-array>
+
+</resources>

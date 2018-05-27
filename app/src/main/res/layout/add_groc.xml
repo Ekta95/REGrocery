@@ -1,0 +1,59 @@
+<?xml version="1.1" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:background="#f2eeae"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Groceries"
+        android:textSize="34sp"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#040405"
+        />
+
+    <ImageView
+        android:id="@+id/pulses"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/flour"
+        android:layout_marginEnd="13dp"
+        android:onClick="addpulse"
+        android:src="@mipmap/pulses" />
+
+    <ImageView
+        android:id="@+id/flour"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="17dp"
+        android:onClick="addflour"
+        android:src="@mipmap/golden" />
+
+    <ImageView
+        android:id="@+id/grains"
+        android:layout_width="208dp"
+        android:layout_height="197dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="73dp"
+        android:onClick="addgrain"
+        android:src="@mipmap/grain" />
+
+    <ImageView
+        android:id="@+id/spices"
+        android:layout_width="164dp"
+        android:layout_height="162dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:onClick="addspice"
+        android:src="@mipmap/spices" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.1" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2eeae">
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/cleattext"
+        android:layout_height="wrap_content"
+        android:text="Enter item ID"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/clearid"
+        android:background="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/cleattext"
+        android:layout_height="50dp"/>
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Clear"
+        android:background="@drawable/round"
+        android:textSize="20dp"
+        android:onClick="clear"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/clearid"
+        android:layout_marginTop="65dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:id="@+id/droptable"
+        android:layout_height="wrap_content"
+        android:text="CLEAR ALL"
+        android:textSize="25dp"
+        android:textColor="#f44242"
+        android:onClick="droptable"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/clear"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

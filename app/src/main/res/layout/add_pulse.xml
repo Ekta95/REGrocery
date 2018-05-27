@@ -1,0 +1,58 @@
+<?xml version="1.1" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#f2eeae"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        />
+    <Spinner
+        android:id="@+id/itempl"
+        android:background="#ffffff"
+        android:entries="@array/Pulses"
+        android:layout_marginLeft="20dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp">
+
+    </Spinner>
+    <TextView
+        android:id="@+id/Quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Quantity(Kg)"
+        android:textSize="30dp"
+        android:layout_marginTop="25dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        />
+    <Spinner
+        android:id="@+id/Quantpl"
+        android:entries="@array/Quantity"
+        android:background="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:layout_width="200dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="50dp">
+
+    </Spinner>
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:text="Submit"
+        android:background="@drawable/round"
+        android:textSize="20dp"
+        android:onClick="additem"
+        android:layout_marginLeft="105dp"
+        android:layout_marginTop="65dp"/>
+
+</LinearLayout>
